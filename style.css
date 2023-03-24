@@ -1,0 +1,79 @@
+p {
+    color: #145; /*метод для изменения цвета текста*/
+    font-size: 30 px; /*изменение размера шрифта*/
+    border: 5 px solid; /*метод для создания границы, шириной в 5 пикселей, сплошная заливка*/
+    padding: 20 px; /*внутренний отступ*/
+    margin: 50 px; /* внешний отступ */
+    border-color: #000; /*задаем цвет для границы*/
+    background-color: blue; /*метод ля изменения цвета заднего фона у объекта*/
+    border-radius: 30 px; /*скругляет углы*/
+}
+/*в теге боди я задал радужный фон при помощи линейного гридиента*/
+body {
+    background-color: liner-gradient (#000, #123);
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    color: crimson;
+    border: 5 px;
+    border-color: brown;
+}
+
+p:hover{ 
+    scale: 1,2;
+}
+
+/*----------------------------------- Urok 3 ---------------------------------------------------------------------------------------------------------------------*/
+/*ul {
+padding: 30 px;
+margin: 8 px;
+background: darkgrey;
+list-style: square;
+}
+ul li {
+    padding: 30 px;
+    margin: 5px;
+    background-color: cornflowerblue;
+}*/
+
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width:auto;
+}
+
+a{
+    background-color: darksalmon;
+    color: coral;
+    display: block;
+    font: bold 13 px sans-serif;
+    padding: 10px 25 px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/*ol {
+    padding: 14px;
+    margin: 5px;
+    background: coral;
+    list-style: lower-roman;
+}
+
+ol li {
+    padding: 10px;
+    margin: 5px;
+    background-color: darksalmon;
+}*/
